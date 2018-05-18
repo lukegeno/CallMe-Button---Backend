@@ -822,6 +822,7 @@ var RequestSignupComponent = /** @class */ (function () {
     function RequestSignupComponent(userTruc, resTruc) {
         this.userTruc = userTruc;
         this.resTruc = resTruc;
+        this.ifSubmitMsg = false;
         this.signupCreds = new __WEBPACK_IMPORTED_MODULE_2__api_user_service__["b" /* SignupCredentials */]();
     }
     RequestSignupComponent.prototype.ngOnInit = function () {
