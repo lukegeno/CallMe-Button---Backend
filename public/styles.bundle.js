@@ -3,7 +3,7 @@ webpackJsonp(["styles"],{
 /***/ "./node_modules/raw-loader/index.js!./node_modules/postcss-loader/lib/index.js??embedded!./src/styles.css":
 /***/ (function(module, exports) {
 
-module.exports = "@media (max-width: 850px) {\n\n    .container{\n        background-color: pink;\n    }\n\n    h1{\n        font-size: 2.5em;\n    }\n\n}\n\n@media (min-width: 850px) and (max-width: 1800px) {\n\n}"
+module.exports = ".animations {\n    background-color: blue;\n    position: fixed;\n    border-radius: 50%;\n    padding: 3vh 1vw;\n    bottom: 0;\n    right: 0;\n    height: 15vh;\n    width: auto;\n    margin-bottom: 3vh;\n    margin-right: 2vw;\n}\n\n\n@media (max-width: 850px) {\n\n    .container{\n        background-color: pink;\n    }\n\n    h1{\n        font-size: 2.5em;\n    }\n\n}\n\n\n@media (min-width: 850px) and (max-width: 1800px) {\n\n}"
 
 /***/ }),
 
