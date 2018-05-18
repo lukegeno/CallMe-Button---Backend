@@ -67,7 +67,7 @@ authRoutes.post("/login", (req, res, next) => {
       }
 
       if (!theUser) {
-        const err = new Error("Login failed");
+        const err = new Error("Login failed! Please check your email / password and try again.");
         err.status = 400;
         next(err);
         return
